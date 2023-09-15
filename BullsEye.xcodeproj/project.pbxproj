@@ -15,9 +15,9 @@
 		780BF9BA2A9876C300B3B91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780BF9B82A9876C300B3B91F /* LaunchScreen.storyboard */; };
 		780BF9C42A99CC0500B3B91F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780BF9C32A99CC0500B3B91F /* AboutViewController.swift */; };
 		7831DEBF2AB3D05700095E36 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7831DEBE2AB3D05700095E36 /* README.md */; };
-		7831DED32AB3E00200095E36 /* start-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7831DED02AB3E00200095E36 /* start-image.png */; };
-		7831DED42AB3E00200095E36 /* info-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7831DED12AB3E00200095E36 /* info-image.png */; };
-		7831DED52AB3E00200095E36 /* win-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7831DED22AB3E00200095E36 /* win-image.png */; };
+		7831DED92AB3E0C000095E36 /* start-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7831DED62AB3E0C000095E36 /* start-image.png */; };
+		7831DEDA2AB3E0C000095E36 /* win-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7831DED72AB3E0C000095E36 /* win-image.png */; };
+		7831DEDB2AB3E0C000095E36 /* info-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7831DED82AB3E0C000095E36 /* info-image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		780BF9BB2A9876C300B3B91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		780BF9C32A99CC0500B3B91F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		7831DEBE2AB3D05700095E36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7831DED02AB3E00200095E36 /* start-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-image.png"; sourceTree = "<group>"; };
-		7831DED12AB3E00200095E36 /* info-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-image.png"; sourceTree = "<group>"; };
-		7831DED22AB3E00200095E36 /* win-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "win-image.png"; sourceTree = "<group>"; };
+		7831DED62AB3E0C000095E36 /* start-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-image.png"; sourceTree = "<group>"; };
+		7831DED72AB3E0C000095E36 /* win-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "win-image.png"; sourceTree = "<group>"; };
+		7831DED82AB3E0C000095E36 /* info-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-image.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 		7831DEC92AB3DD6600095E36 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				7831DED12AB3E00200095E36 /* info-image.png */,
-				7831DED02AB3E00200095E36 /* start-image.png */,
-				7831DED22AB3E00200095E36 /* win-image.png */,
+				7831DED82AB3E0C000095E36 /* info-image.png */,
+				7831DED62AB3E0C000095E36 /* start-image.png */,
+				7831DED72AB3E0C000095E36 /* win-image.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -148,13 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7831DED32AB3E00200095E36 /* start-image.png in Resources */,
+				7831DED92AB3E0C000095E36 /* start-image.png in Resources */,
+				7831DEDB2AB3E0C000095E36 /* info-image.png in Resources */,
 				780BF9BA2A9876C300B3B91F /* LaunchScreen.storyboard in Resources */,
+				7831DEDA2AB3E0C000095E36 /* win-image.png in Resources */,
 				780BF9B72A9876C300B3B91F /* Assets.xcassets in Resources */,
-				7831DED52AB3E00200095E36 /* win-image.png in Resources */,
 				7831DEBF2AB3D05700095E36 /* README.md in Resources */,
 				780BF9B52A9876C100B3B91F /* Main.storyboard in Resources */,
-				7831DED42AB3E00200095E36 /* info-image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
