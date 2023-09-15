@@ -14,6 +14,10 @@
 		780BF9B72A9876C300B3B91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 780BF9B62A9876C300B3B91F /* Assets.xcassets */; };
 		780BF9BA2A9876C300B3B91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780BF9B82A9876C300B3B91F /* LaunchScreen.storyboard */; };
 		780BF9C42A99CC0500B3B91F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780BF9C32A99CC0500B3B91F /* AboutViewController.swift */; };
+		7831DEBF2AB3D05700095E36 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7831DEBE2AB3D05700095E36 /* README.md */; };
+		7831DECD2AB3DD6600095E36 /* start-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7831DECA2AB3DD6600095E36 /* start-image.png */; };
+		7831DECE2AB3DD6600095E36 /* win-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7831DECB2AB3DD6600095E36 /* win-image.png */; };
+		7831DECF2AB3DD6600095E36 /* info-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7831DECC2AB3DD6600095E36 /* info-image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		780BF9B92A9876C300B3B91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		780BF9BB2A9876C300B3B91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		780BF9C32A99CC0500B3B91F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		7831DEBE2AB3D05700095E36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7831DECA2AB3DD6600095E36 /* start-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-image.png"; sourceTree = "<group>"; };
+		7831DECB2AB3DD6600095E36 /* win-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "win-image.png"; sourceTree = "<group>"; };
+		7831DECC2AB3DD6600095E36 /* info-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-image.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				780BF9AC2A9876C100B3B91F /* BullsEye */,
+				7831DEC92AB3DD6600095E36 /* Screenshots */,
+				7831DEBE2AB3D05700095E36 /* README.md */,
 				780BF9AB2A9876C100B3B91F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +78,16 @@
 				780BF9BB2A9876C300B3B91F /* Info.plist */,
 			);
 			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		7831DEC92AB3DD6600095E36 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				7831DECA2AB3DD6600095E36 /* start-image.png */,
+				7831DECB2AB3DD6600095E36 /* win-image.png */,
+				7831DECC2AB3DD6600095E36 /* info-image.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +148,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7831DECD2AB3DD6600095E36 /* start-image.png in Resources */,
+				7831DECF2AB3DD6600095E36 /* info-image.png in Resources */,
 				780BF9BA2A9876C300B3B91F /* LaunchScreen.storyboard in Resources */,
+				7831DECE2AB3DD6600095E36 /* win-image.png in Resources */,
 				780BF9B72A9876C300B3B91F /* Assets.xcassets in Resources */,
+				7831DEBF2AB3D05700095E36 /* README.md in Resources */,
 				780BF9B52A9876C100B3B91F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
